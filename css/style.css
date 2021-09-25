@@ -1,0 +1,40 @@
+header a {
+background-color: grey;
+}
+
+article > p {
+    font-family: cursive;
+}
+
+header + article{
+    text-decoration: underline;
+    background-color: grey;
+}
+
+section ~ footer {
+background-color: darkgrey;
+}
+
+a:link {
+font-weight: bold;
+color: seagreen;
+}
+
+a:visited {
+    color: black;
+}
+
+header:hover {
+    font-size: medium;
+    font-family: monospace;
+    color: black; 
+    background-color: darkgrey;
+  }
+
+footer:active {
+font-size: medium;
+color: darkred;
+font-family: monospace;
+}
+
+
